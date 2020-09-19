@@ -114,7 +114,7 @@ class TicTacToe:
 
                 x = int(a)
                 y = int(b)
-                if (x < 0 or x >= 4) or (y < 0 or y > 3):
+                if (x <= 0 or x > 3) or (y <= 0 or y > 3):
                     print("Coordinates should be from 1 to 3!")
                     return 5
                 else:
